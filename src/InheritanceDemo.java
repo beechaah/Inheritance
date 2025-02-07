@@ -6,12 +6,12 @@ public class InheritanceDemo
     {
         ArrayList<Worker> workers = new ArrayList<>();
 
-        workers.add(new Worker("Alice", "Smith", "1", "Ms.", 1990, 15.0));
-        workers.add(new Worker("Bob", "Jones", "2", "Mr.", 1985, 18.0));
-        workers.add(new Worker("Charlie", "Brown", "3", "Mr.", 1992, 20.0));
+        workers.add(new Worker("Alice", "Smith", "000001", "Ms.", 1990, 15.0));
+        workers.add(new Worker("Bob", "Jones", "000002", "Mr.", 1985, 18.0));
+        workers.add(new Worker("Charlie", "Brown", "000003", "Mr.", 1992, 20.0));
 
-        workers.add(new SalaryWorker("David", "Wilson", "4", "Dr.", 1980, 52000, 57000.00));
-        workers.add(new SalaryWorker("Eve", "Taylor", "5", "Mrs.", 1987, 60000, 100000.00));
+        workers.add(new SalaryWorker("David", "Wilson", "000004", "Dr.", 1980, 52000, 57000.00));
+        workers.add(new SalaryWorker("Eve", "Taylor", "000005", "Mrs.", 1987, 60000, 100000.00));
         workers.add(new SalaryWorker("Ally", "Faris", "000006", "Mrs.", 1991, 19.00, 75000.00));
 
 
